@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
 int x,n,y=0,t;
@@ -19,5 +20,6 @@ else
 {
 printf("Not a Armstrong Number\n");
 }
+  getch();
 return 0;
 }
